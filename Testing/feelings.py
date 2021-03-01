@@ -4,10 +4,10 @@ print("")
 
 # Output a feeling
 print("A: I Feel a bit worried.")
-print("B: I Feel a bit worried.")
-print("C: I Feel a bit worried.")
-print("D: I Feel a bit worried.")
-print("E: I Feel a bit worried.")
+print("B: I Feel a bit happy.")
+print("C: I Feel a bit angry.")
+print("D: I Feel a bit sad.")
+print("E: I Feel a bit nervous.")
 
 # Output instructions
 print("Enter the letter that corresponds the most closely to how you feel.")
@@ -25,4 +25,3 @@ if feeling == "a":
 
 elif feeling == "b":
     print()
-
