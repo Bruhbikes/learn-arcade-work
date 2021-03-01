@@ -14,8 +14,6 @@ arcade.draw_rectangle_filled(100, 600, 1400, 400, arcade.color.EMERALD)
 
 arcade.draw_rectangle_filled(0, 50, 1600, 200, arcade.color.EMERALD)
 
-arcade.draw_text("pog", 100, 200, arcade.color.GREEN)
-
 arcade.finish_render()
 
 # Keep the window up until someone closes it.
