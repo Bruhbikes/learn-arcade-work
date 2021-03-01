@@ -1,5 +1,15 @@
 def main():
     feeling = input("Do you want to start? y/n: ").lower()
+
+    if feeling == "n":
+        print("closing feelings generator. ")
+        print("have a nice day :) ")
+        exit()
+
+    while feeling != "y":
+        print("please try again")
+        feeling = input("Do you want to start? y/n: ").lower()
+
     while feeling == "y":
 
         print("")
@@ -30,7 +40,8 @@ def main():
 
         elif feeling == "b":
             print()
-            print("Do not set aside your happiness. Do not wait to be happy in the future. The best time to be happy is "
+            print("Do not set aside your happiness. Do not wait to be happy in the future. The best time to be happy "
+                  "is "
                   "always now.")
             print()
             print("Roy T. Bennett")
@@ -38,8 +49,10 @@ def main():
 
         elif feeling == "c":
             print()
-            print("Anybody can become angry — that is easy, but to be angry with the right person and to the right degree ")
-            print("and at the right time and for the right purpose, and in the right way — that is not within everybody's ")
+            print("Anybody can become angry — that is easy, but to be angry with the right person and to the right "
+                  "degree ")
+            print("and at the right time and for the right purpose, and in the right way — that is not within "
+                  "everybody's ")
             print("power and is not easy.")
             print()
             print("Aristotle")
