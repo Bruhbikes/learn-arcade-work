@@ -74,7 +74,7 @@ def main():
         if feeling == "n":
             print("closing feelings generator. ")
             print("have a nice day :) ")
-            exit()
+            break
 
         while feeling != "y":
             print("please try again")
@@ -83,7 +83,7 @@ def main():
             if feeling == "n":
                 print("closing feelings generator. ")
                 print("have a nice day :) ")
-                exit()
+                break
 
 
 main()
